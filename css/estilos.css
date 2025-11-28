@@ -33,6 +33,9 @@ background-color: var(--rojo);
 .btn-rojo{
     background-color: var(--rojo);
 }
+.btn-blanco{
+    background-color: #fff;
+}
 .verde{
     color: var(--verde);
 }
@@ -52,8 +55,7 @@ background-color: var(--rojo);
     color: var(--blanco);
 }
 .button{
-    width: 100px;
-    height: 25px;
+    width: 150px;
     margin: auto;
 
 }
@@ -63,4 +65,13 @@ background-color: var(--rojo);
 .line {
     max-width: 200px;
     width: 100%;
+}
+
+.whats{
+    margin-top: 350px;
+    margin-left: 20px;
+}
+.whats:hover{
+    cursor: pointer;
+   
 }

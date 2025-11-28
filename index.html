@@ -30,7 +30,7 @@
                   class="menu-activado">Inicio</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#"><span class="menu-desactivado">Menú</span></a>
+              <a class="nav-link fs-5" href="Menu.html"><span class="menu-desactivado">Menú</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link fs-5" href="#"><span class="menu-desactivado">Nosotros</span></a>
@@ -46,93 +46,110 @@
 
 
   <main>
-    <div id="carouselExample" class="carousel slide w-75 m-auto">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="imagenes/1.png" class="d-block w-100" alt="...">
+    <article class="container">
+
+      <div id="carouselExample" class="carousel slide w-75 m-auto">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/3.png" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="imagenes/2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="imagenes/3.png" class="d-block w-100" alt="...">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </article>
 
     <!-- cards -->
-    <!-- PREGUNTAR SEPARAR COL -->
-    <article class="container w-75">
+    <article class="container w-50">
 
-
-      <div class="row justify-content-center align-items-center g-2 mt-4 ">
-        <div class="col-md-6 col-sm-12 d-flex flex-column bg-verde p-2 rounded-5">
-          <img class="m-auto" src="imagenes/pizza-inicio1.png" alt="" width="200px">
-          <button type="button" class="button btn btn-sm btn-rojo text-white">Pizza</button>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="d-flex flex-column bg-verde rounded-5 p-3 mt-2">
+            <img class="img-fluid d-block mx-auto w-50" src="imagenes/pizza-inicio1.png" alt="">
+            <button class="btn btn-rojo text-white fs-5 fw-bold button">Pizza</button>
+          </div>
         </div>
-        <div class="col-md-6 col-sm-12 d-flex flex-column bg-rojo p-2 rounded-5">
-          <img class="m-auto" src="imagenes/soda.png" alt="" width="200px">
-          <button type="button" class="button btn btn-sm btn-rojo text-white">Pizza</button>
+
+        <div class="col-sm-12 col-md-6">
+          <div class=" bg-rojo rounded-5 d-flex flex-column p-3 mt-2">
+            <img class="img-fluid d-block mx-auto w-50" src="imagenes/soda.png" alt="">
+            <button type="button" class="button btn btn-sm btn-verde text-white fs-5 fw-bold">Refrescos</button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <div class=" bg-black rounded-5 d-flex flex-column p-3 mt-2">
+            <img class="img-fluid d-block mx-auto w-50" src="imagenes/postre-inicio.png" alt="">
+            <button type="button" class="button btn btn-sm btn-verde text-white fs-5 fw-bold">Postres</button>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <div class=" bg-amarillo rounded-5 d-flex flex-column p-3 mt-2">
+            <img class="img-fluid d-block mx-auto w-50" src="imagenes/pizza-inicio2.png" alt="">
+            <button type="button" class="button btn btn-sm btn-rojo text-white fs-5 fw-bold">Ofertas</button>
+          </div>
         </div>
       </div>
 
-
-
-      <div class="row justify-content-center align-items-center g-2 mt-4">
-        <div class="col-md-6 col-sm-12 d-flex flex-column bg-black p-2 rounded-5 ">
-          <img class="m-auto" src="imagenes/postre-inicio.png" alt="" width="200px">
-          <button type="button" class="button btn btn-sm btn-rojo text-white">Pizza</button>
-        </div>
-
-        <div class="col-md-6 col-sm-12 d-flex flex-column bg-amarillo p-2 rounded-5 ">
-          <img class="m-auto" src="imagenes/pizza-inicio2.png" alt="" width="200px">
-          <button type="button" class="button btn btn-sm btn-rojo text-white">Pizza</button>
-        </div>
-      </div>
     </article>
 
-    <article class="icon-divisor d-flex justify-content-center align-items-center gap-3 mt-5">
-      <div class="border border-bottom border-danger border-2 line">
-      </div>
-      <div>
-        <h2>Ubicación</h2>
-      </div>
-      <div class="border border-bottom border-danger border-2 line">
-      </div>
-    </article>
+    <!-- ubicación -->
+    <section class="container">
+      <article class="icon-divisor d-flex justify-content-center align-items-center gap-3 mt-5">
+        <div class="border border-bottom border-danger border-2 line">
+        </div>
+        <div>
+          <h2>Ubicación</h2>
+          <img class="position-fixed fixed-top whats" src="imagenes/icono-whatsapp.png" alt="">
+        </div>
+        <div class="border border-bottom border-danger border-2 line">
+        </div>
+      </article>
+    </section>
 
-    <section>
+    <section class="container w-50">
 
-      <div class="row justify-content-center align-items-center g-2 mt-3">
+      <div class="row justify-content-center align-items-center g-2">
         <div class="col-md-6 col-sm-12">
-          <iframe class="d-block m-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7842.74292143352!2d-85.4394700953125!3d10.628223285872323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f757d2ac564d185%3A0x6c05ad05cdbd2281!2sParque%20Mario%20Ca%C3%B1as%20Ruiz!5e0!3m2!1ses!2scr!4v1764300426950!5m2!1ses!2scr" width="250" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="">
+            <iframe class="d-block m-auto"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7842.74292143352!2d-85.4394700953125!3d10.628223285872323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f757d2ac564d185%3A0x6c05ad05cdbd2281!2sParque%20Mario%20Ca%C3%B1as%20Ruiz!5e0!3m2!1ses!2scr!4v1764300426950!5m2!1ses!2scr"
+              width="250" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
 
-        <div class="col-md-6 col-sm-12 text-center">
-          <h2 class="fs-3">Horario</h2>
-          <p class="fs-6">Lunes a Sábado 7 AM a
-            9 PM / Domingo cerrado</p>
-          <h2 class="fs-3">Dirección</h2>
-          <p class="fs-6">Barrio Rojas Chaves Tercera entrada</p>
-          <h2 class="fs-3">Teléfono</h2>
-          <p class="fs-6">2220-2222</p>
+        <div class="col-md-6 col-sm-12">
+          <div class=" text-center">
+            <h2 class="fs-3">Horario</h2>
+            <p class="fs-6">Lunes a Sábado 7 AM a
+              9 PM / Domingo cerrado</p>
+            <h2 class="fs-3">Dirección</h2>
+            <p class="fs-6">Barrio Rojas Chaves Tercera entrada</p>
+            <h2 class="fs-3">Teléfono</h2>
+            <p class="fs-6">2220-2222</p>
+          </div>
         </div>
 
       </div>
     </section>
-
-
-
   </main>
-
-
+  <br>
+  <br>
+  <br>
 
   <footer class="container-fluid bg-rojo mt-5">
 
@@ -171,7 +188,8 @@
       </div>
       <div class="col-md-6 col-sm-12 text-md-center text-sm-start p-2"><span
           class="bi bi-tiktok text-white fs-1 p-2 "></span> <span class="bi bi-instagram text-white fs-1 p-2"></span>
-        <span class="bi bi-facebook text-white fs-1 p-2"></span></div>
+        <span class="bi bi-facebook text-white fs-1 p-2"></span>
+      </div>
     </div>
 
 
@@ -188,7 +206,7 @@
   <!-- BOOTSTRAP JS + POPPER -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
