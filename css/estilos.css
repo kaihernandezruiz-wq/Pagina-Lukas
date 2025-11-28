@@ -1,0 +1,66 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+    --rojo:#AC0C24;
+    --verde:#006634;
+    --amarillo:#FF8633;
+}
+/* ***************************************************** */
+.bg-rojo{
+background-color: var(--rojo);
+}
+.rojo{
+    color: var(--rojo);
+}
+.bg-verde{
+    background-color: var(--verde);
+}
+.bg-amarillo{
+    background-color: var(--amarillo);
+}
+.amarillo{
+    color: var(--amarillo);
+}
+.btn-amarillo{
+    background-color: var(--amarillo);
+}
+.btn-verde{
+    background-color: var(--verde);
+}
+.btn-rojo{
+    background-color: var(--rojo);
+}
+.verde{
+    color: var(--verde);
+}
+
+.menu-activado{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--blanco);
+    background-color: var(--verde);
+    padding: 2px;
+    border-radius: 5px 0px;
+    
+}
+.menu-desactivado{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--blanco);
+}
+.button{
+    width: 100px;
+    height: 25px;
+    margin: auto;
+
+}
+.border-rojo{
+    background-color: var(--rojo);
+}
+.line {
+    max-width: 200px;
+    width: 100%;
+}
