@@ -77,37 +77,34 @@ background-color: var(--rojo);
     width: 160px;
     margin: auto;
 }
-.button{
+
+
+@media(min-width:767px){
+    .button{
+    width: 160px;
+    margin: auto;
+}
+}
+@media(min-width:767px){
+    .button-orden{
+    width: 250px;
+    margin: auto;
+}  
+}
+
+
+
+@media(min-width:300px){
+    .button-orden{
+    width: 250px;
+    margin: auto;
+}
+}
+@media(min-width:300px){
+    .button{
     width: 100px;
     margin: auto;
 }  
-
-@media(min-width:767px){
-    .button{
-    width: 160px;
-    margin: auto;
-}
-}
-@media(min-width:767px){
-    .button-orden{
-    width: 250px;
-    margin: auto;
-}  
-}
-
-
-
-@media(min-width:300px){
-    .button-orden{
-    width: 250px;
-    margin: auto;
-}
-}
-@media(min-width:300px){
-    .button{
-    width: 160px;
-    margin: auto;
-}
 }
 
 .border-rojo{
