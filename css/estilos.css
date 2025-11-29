@@ -68,8 +68,9 @@ background-color: var(--rojo);
     font-weight: 700;
     color: var(--blanco);
 }
+  
 .button-orden{
-    width: 250px;
+    width: 100px;
     margin: auto;
 }  
 .button{
@@ -94,9 +95,9 @@ background-color: var(--rojo);
 
 @media(min-width:300px){
     .button-orden{
-    width: 100px;
+    width: 250px;
     margin: auto;
-}  
+}
 }
 @media(min-width:300px){
     .button{
