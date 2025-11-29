@@ -68,6 +68,14 @@ background-color: var(--rojo);
     font-weight: 700;
     color: var(--blanco);
 }
+.button-orden{
+    width: 200px;
+    margin: auto;
+}  
+.button{
+    width: 150px;
+    margin: auto;
+}
 @media(min-width:767px){
     .button{
     width: 150px;
