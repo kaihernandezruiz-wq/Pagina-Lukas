@@ -1,5 +1,6 @@
 /* CSS INICIALES */
 /* Variables de colores y fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
 
 :root {
     --negro: #000;
@@ -7,8 +8,20 @@
     --rojo:#AC0C24;
     --verde:#006634;
     --amarillo:#FF8633;
+    --titulo:"Sansita", sans-serif;
+    --subtitulo:"Sansation", sans-serif;
+    --texto:"Balsamiq Sans", sans-serif;
 }
 /* ***************************************************** */
+.titulo{
+    font-family:"Sansita", sans-serif;
+}
+.subtitulo{
+    font-family: "Sansation", sans-serif;
+}
+.texto{
+    font-family: "Balsamiq Sans", sans-serif;
+}
 .bg-rojo{
 background-color: var(--rojo);
 }
@@ -26,6 +39,7 @@ background-color: var(--rojo);
 }
 .btn-amarillo{
     background-color: var(--amarillo);
+    border-color: var(--amarillo);
 }
 .btn-verde{
     background-color: var(--verde);
@@ -59,6 +73,11 @@ background-color: var(--rojo);
     margin: auto;
 
 }
+.button-orden{
+    width: 200px;
+    margin: auto;
+
+}
 .border-rojo{
     background-color: var(--rojo);
 }
@@ -75,3 +94,22 @@ background-color: var(--rojo);
     cursor: pointer;
    
 }
+.form-tam{
+    max-width: 65%;
+}
+
+@media(min-width:767px){
+    .form-tam{
+        width: 40%;
+    }
+}
+.orden-tam{
+    max-width: 65%;
+}
+
+@media(min-width:767px){
+    .orden-tam{
+        width: 40%;
+    }
+}
+
