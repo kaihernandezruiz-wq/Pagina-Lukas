@@ -78,7 +78,7 @@ background-color: var(--rojo);
 }
 @media(min-width:767px){
     .button{
-    width: 150px;
+    width: 155px;
     margin: auto;
 }
 }
