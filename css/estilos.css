@@ -69,25 +69,29 @@ background-color: var(--rojo);
     color: var(--blanco);
 }
 .button-orden{
-    width: 200px;
+    width: 250px;
     margin: auto;
 }  
 .button{
-    width: 150px;
+    width: 160px;
     margin: auto;
 }
+
 @media(min-width:767px){
     .button{
-    width: 155px;
+    width: 160px;
     margin: auto;
 }
 }
 @media(min-width:767px){
     .button-orden{
-    width: 200px;
+    width: 250px;
     margin: auto;
 }  
 }
+
+
+
 @media(min-width:300px){
     .button-orden{
     width: 100px;
