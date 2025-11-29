@@ -80,6 +80,18 @@ background-color: var(--rojo);
     margin: auto;
 }  
 }
+@media(min-width:300px){
+    .button-orden{
+    width: 100px;
+    margin: auto;
+}  
+}
+@media(min-width:300px){
+    .button{
+    width: 100px;
+    margin: auto;
+}  
+}
 
 .border-rojo{
     background-color: var(--rojo);
