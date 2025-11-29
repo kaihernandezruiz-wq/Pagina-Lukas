@@ -77,6 +77,10 @@ background-color: var(--rojo);
     width: 160px;
     margin: auto;
 }
+.button{
+    width: 100px;
+    margin: auto;
+}  
 
 @media(min-width:767px){
     .button{
@@ -101,9 +105,9 @@ background-color: var(--rojo);
 }
 @media(min-width:300px){
     .button{
-    width: 100px;
+    width: 160px;
     margin: auto;
-}  
+}
 }
 
 .border-rojo{
